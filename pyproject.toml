@@ -1,0 +1,11 @@
+# This file tells uv what your project needs. You don't edit it by hand
+# in this course — ask Claude to add dependencies for you.
+
+[project]
+name = "ist-app"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.40",
+    "openai"
+]
