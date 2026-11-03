@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 1. Add a title to the web page
-st.title("Tip Calculator")
+st.title("Ahliyah's Tip Calculator")
 
 # 2. Get input from the user and save to variables
 bill = st.number_input("Bill amount", min_value=0.0, value=50.0)
