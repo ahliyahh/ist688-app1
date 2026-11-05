@@ -2,4 +2,4 @@
 # Keep it in sync with pyproject.toml — ask Claude to update both together.
 streamlit>=1.40
 openai
-
+pypdf>=6.21.4
