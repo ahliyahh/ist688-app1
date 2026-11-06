@@ -4,3 +4,7 @@ streamlit>=1.40
 openai
 pypdf>=6.21.4
 tiktoken>=0.14.0
+pymupdf>=2.1
+requests>=2.34.2
+beautifulsoup4>=4.15.0
+anthropic>=2.6.0

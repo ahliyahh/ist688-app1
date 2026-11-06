@@ -7,5 +7,14 @@ lab2_page = st.Page("lab2.py", title="Lab 2 - PDF Summarizer")
 lab1_page = st.Page("document_qa.py", title="Lab 1 - Document Q&A")
 tip_page = st.Page("tip_calculator.py", title="Tip Calculator")
 
-page = st.navigation([lab3_page, lab2_page, lab1_page, tip_page])
+hw1_page = st.Page("HW1.py", title="HW 1 - Document Q&A")
+hw2_page = st.Page("HW2.py", title="HW 2 - URL Summarizer")
+
+# The sidebar groups the pages under "Labs" and "Homework"
+page = st.navigation(
+    {
+        "Labs": [lab3_page, lab2_page, lab1_page, tip_page],
+        "Homework": [hw1_page, hw2_page],
+    }
+)
 page.run()
